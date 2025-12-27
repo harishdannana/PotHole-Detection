@@ -1,0 +1,17 @@
+Title: End-to-end Object Detection Pipeline
+
+Collapse Details
+
+Technologies:
+
+Python
+
+PyTorch
+
+YOLOV5
+
+FastAPI
+
+Description:
+
+Key Requirements: Train a YOLOv5 model on a custom dataset with data augmentation, run validation, and package inference as a FastAPI service. Include model conversion to ONNX and measure inference speed. Tools and Resources: Python 3, PyTorch, Ultralytics YOLOV5, FastAPI, ΟΝΝΧ. Deliverables: Training and conversion scripts; saved model and ONNX file; REST API server code; performance report.

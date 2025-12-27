@@ -1,0 +1,11 @@
+
+To see actual pothole detections and get non-empty results, you should use test images that clearly show potholes. The model is trained to detect potholes, so if the image you're using doesn't contain any (or the model isn't confident enough in its detection), the `results` array will be empty.
+
+You can modify the `image_path` variable in the `measure_inference.py` script to point to a different image that you know contains potholes. For example:
+
+```python
+# Define the image path
+image_path = 'path/to/your/image_with_pothole.jpg'
+```
+
+Make sure the path to your image is correct relative to where you run the script, or use an absolute path.
